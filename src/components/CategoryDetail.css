@@ -1,0 +1,50 @@
+.category-detail {
+    padding: 20px;
+    background-image: url("../../public/nature2.jpeg");
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-detail h1 {
+    margin-bottom: 20px;
+  }
+  
+  .details-container {
+    max-height: auto; /* Adjust height as needed */
+    overflow-y: auto; /* Make the list scrollable */
+  }
+  
+  .category-detail ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .category-detail .category-item {
+    margin-bottom: 20px;
+  }
+  
+  .category-detail h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .category-detail p {
+    font-size: 16px;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
