@@ -29,7 +29,8 @@ function App() {
     if (
       (username === 'user' && password === 'password') ||
       (username === 'sunil' && password === 'sunil123') ||
-      (username === 'subbu' && password === 'subbu123')
+      (username === 'subbu' && password === 'subbu123') ||
+      (username === 'rahul' && password === 'rahul123')
     ) {
       setIsLoggedIn(true);
     } else {
